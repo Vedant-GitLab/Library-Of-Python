@@ -7,3 +7,5 @@ print(np.delete(a,[1])) #delete the item at index 1
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 b = np.arange(24).reshape(6,4)
 print(b)
+print(np.delete(b,[1],axis=1)) #delete the column of index 1
+print(np.delete(b,[1],axis=0)) #delete the row of index 0
