@@ -5,5 +5,5 @@ import numpy as np
 a = np.array([11,53,28,50,38,37,94,92,5,30,68,9,78,2,21])
 print(a, "-----> Before")
 
-np.put(a,[0,1],[110,345])
+np.put(a,[0,1],[110,345]) 
 print(a, "-----> After")
