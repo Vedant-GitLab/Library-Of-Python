@@ -3,3 +3,4 @@ import numpy as np
 a = np.array([11,53,28,50,38,37,94,92,5,30,68,9,78,2,21])
 print(a)
 print(np.clip(a,a_min=25,a_max=75)) #puttng values in range of 25 to 75. means greater than 75 is equal to 75 and smaller than 25 is equal to 25
+print(np.clip(a,a_min=15,a_max=95)) #15 SE CHOTE KO 15 KREGA AUR 95 SE BDE KO 95 KREGA
