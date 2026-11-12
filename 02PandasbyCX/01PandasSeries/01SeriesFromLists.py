@@ -18,3 +18,10 @@ print(pd.Series(runs))
 
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
+#Custom Index
+marks = [23, 45, 67, 78, 88]
+subjects = ['maths', 'english', 'science', 'hindi', 'bio']
+print(pd.Series(marks, index=subjects))
+#agar humko kisi data ko index ki tarah use krna hoga to hum index=  ka use krenge
+
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
