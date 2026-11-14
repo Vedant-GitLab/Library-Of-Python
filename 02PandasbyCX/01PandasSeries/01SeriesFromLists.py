@@ -30,5 +30,6 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 marks = [23, 45, 67, 78, 88]
 subjects = ['maths', 'english', 'science', 'hindi', 'bio']
 print(pd.Series(marks, index=subjects, name='Vedant Ke marks')) # ye 'name' function koi additional data add krne ke liye use hota hai
-marks2 = pd.Series(marks, index=subjects, name='Vedant Ke marks')
-print(marks2)
+
+# marks2 = pd.Series(marks, index=subjects, name='Vedant Ke marks')
+# print(marks2)
