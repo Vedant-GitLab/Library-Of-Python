@@ -8,3 +8,7 @@ marks = {
     }
 
 print(pd.Series(marks, name='vedant ke marks'))
+
+#or we can also print it like this
+mark = pd.Series(marks, name='vedant ke marks')
+print(mark)
