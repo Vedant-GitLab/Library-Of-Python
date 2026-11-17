@@ -26,3 +26,6 @@ print(series.name, "---> NAME")
 
 #is_unique : series ke saare items unique hai ya nhi
 print(series.is_unique, "---> IS_UNIQUE")  #qki math aur science ki values equal hai
+
+a = pd.Series([1,2,3,4,5])
+print(a.is_unique, "---> IS_UNIQUE")
