@@ -44,4 +44,4 @@ print(type(series.values))
 runs = [13, 24, 123, 34, 443] #second example
 runs_ser = pd.Series(runs)
 print(runs_ser.values, "---> VALUES")
-
+print(type(runs))
