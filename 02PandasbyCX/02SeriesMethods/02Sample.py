@@ -3,4 +3,6 @@ import pandas as pd
 df=pd.read_csv(r'C:\Users\tiwar\OneDrive\Desktop\Libraries\02PandasbyCX\02SeriesMethods\student.csv')
 print(df)
 print("*******************************************")
-print(df.sample())
+print(df.sample()) #randomly koi 1 dega
+print("*******************************************")
+print(df.sample(2)) #randomly koi 2 dega
