@@ -7,4 +7,4 @@ import pandas as pd
 df=pd.read_csv(r'C:\Users\tiwar\OneDrive\Desktop\Libraries\02PandasbyCX\01PandasSeries\students.csv') #this r is used for raw string because Python mein \U, \n, \t jaise characters special escape sequences hote hain. Tumhare path mein \Users hai, jahan \U ko Python Unicode escape samajh raha hai.
 print(df)
 print(type(df)) #data frame
-#isko series me convert krne ke liye squeeze=True krna padega last me ' , ' lgakr
+#isko series me convert krne ke liye squeeze=True krna padega last me ' , ' lgakr pr ye kaam nhi krga qki isko Pandas 2.0 se hata diya gya hai
