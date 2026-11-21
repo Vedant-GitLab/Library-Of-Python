@@ -1,3 +1,4 @@
+#Head Aur Tail Ka Use Upar Ya Neeche Se Selected Rows Ko Print Krane Ke Liye Use Hota Hai
 import pandas as pd
 df=pd.read_csv(r'C:\Users\tiwar\OneDrive\Desktop\Libraries\02PandasbyCX\02SeriesMethods\student.csv')
 print(df)
