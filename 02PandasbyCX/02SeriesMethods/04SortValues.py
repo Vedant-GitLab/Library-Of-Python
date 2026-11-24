@@ -17,5 +17,5 @@ vk=pd.read_csv(r'C:\Users\tiwar\OneDrive\Desktop\Libraries\02PandasbyCX\02Series
 
 #Inplace 
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-print(vk['Runs'].sort_values(inplace=True))
+print(vk['Runs'].sort_values(inplace=True)) #inplace true krne se ye permanent operation ho jayega hamare original series me changes ho jayenge
       #ye error d erha hai 
