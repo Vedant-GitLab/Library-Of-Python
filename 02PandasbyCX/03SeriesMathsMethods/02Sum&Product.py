@@ -5,4 +5,4 @@ vk=pd.read_csv(r'C:\Users\tiwar\OneDrive\Desktop\Libraries\02PandasbyCX\02Series
 print(vk['Runs'].sum(), " --->  Total Runs")
 
 #Product : Saare items ko multiply kr dega
-print(vk['Runs'].product(), " --->  Total Runs")
+print(vk['Runs'].product(), " --->  Total Runs ka Multiplication") #Iska output zero isliye aayega qki kisi din vk ne zero run liye honge
